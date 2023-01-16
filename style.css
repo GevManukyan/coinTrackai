@@ -1,0 +1,2135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+body{
+    background-color: #1A202C;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    
+}
+@font-face {
+    font-family: "Axiforma";
+    src: url(./Axiforma-Regular.ttf) format('truetype');
+    src: url(./Axiforma-Regular.woff) format("woff");
+}
+
+/* header */
+
+header{
+    width: 100%;
+    height: 80px;
+    background-color: #212834;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+/* nav */
+
+.menuBtn{
+    width: 143px;
+    height: 47px; 
+    background-image: url("./images/Group 31725.png"),url("./images/Rectangle\ 1634\ \(1\).png");
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 70%;
+    flex-wrap: wrap;
+}
+.portSel{
+    width: 143px;
+    height: 47px; 
+    background-image: url("/images/Vector\ \(4\).png"),url("./images/Portfolio\ \(1\).png");
+    background-repeat: no-repeat;
+    background-position: 10px , 40px;
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.portSel:focus{
+    background-color: #212834;
+    border: none;
+}
+
+.settSel{
+    width: 133px;
+    height: 47px; 
+    background-image: url("/images/Vector\ \(8\).png"),url("./images/Settings.png");
+    background-repeat: no-repeat;
+    background-position: 10px , 35px;
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+.settSel:focus{
+    background-color: #212834;
+    border: none;
+}
+
+.iconsDiv{
+    display: flex;
+    align-items: center;
+    width: 100px;
+    justify-content: space-between;
+}
+.burger{
+    display: none;
+    
+}
+.burgerDiv {
+    position: absolute;
+    background-color: #1F2633;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    top:54px ;
+    height: 80vh;
+    width:100%;
+    margin-left: auto;
+    align-items: center;
+    border-bottom:2px solid #A37DF9;
+    display: none;
+}
+.iconsDivburger{
+    display: flex;
+    align-items: center;
+    width: 150px;
+    justify-content: space-between;
+}
+
+.moon{
+    width: 40px;
+    filter: contrast(50%) grayscale(40%) saturate(2);
+    margin-left: 10px;
+}
+
+/* section */
+section{
+    padding: 10px 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+/* leftDiv */
+.sect1BigDiv{
+    display: flex;
+    flex-direction: column;
+}
+.leftDiv{
+    width: 408px;
+    background-image: url("./images/leftDiv/Rectangle 28.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px ;
+    height: 678px;
+}
+
+.inpDiv{
+    width: 408px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 70px;
+    
+}
+
+.balanceInp{
+    width: 196px;
+    height: 40px;
+    background-color: inherit;
+    border: 1px solid #2B3548;
+    background-image: url("./images/leftDiv/Group 31772.png") ;
+    background-image: url("./images/leftDiv/Group 31772.png"), linear-gradient(0deg, #1A202C, #1A202C), #FFFFFF ;
+    background-position:  bottom 10px right 10px  ;
+    background-repeat: no-repeat;
+    background-color: #1A202C;
+    color: white;
+    font-size: 14px;
+    margin: 5px;
+    padding-left: 5px;
+} 
+
+.balanceInp::placeholder{
+    color: white;
+    font-family: 'Axiforma';
+    font-style: normal;
+}
+
+.sort{
+    width: 175px;
+    height: 40px;
+    margin: 5px;
+    color: white;
+    background-color: inherit;
+    border: 1px solid #2B3548;
+    -webkit-appearance:none;
+    background-image:url("./images/leftDiv/Vector (9).png") ;
+    background-color: #1A202C;
+    background-repeat: no-repeat;
+    
+    background-position: bottom 10px right 10px;
+    
+}
+.sort:focus{
+    background-color: #212834;
+    border: none;
+}
+
+
+
+.exchange{
+    width: 378px;
+    height: 40px;
+    background-image: url("./images/leftDiv/Vector (10).png");
+    background-color:#1A202C ;
+    background-repeat: no-repeat;
+    background-position: bottom 10px left 50px;
+    border: 1px solid #2B3548;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    margin-left: 15px;
+}
+.exchange::placeholder{
+    color: white;
+    font-family: 'Axiforma';
+    font-style: normal;
+    margin-right: -20px;
+}
+
+.leftParent2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    width: 350px;
+}
+.par21{
+    width: 107px;
+    height: 23px;
+    
+}
+
+.par22{
+    width: 87px;
+    height: 24px;
+    margin-right: -30px;
+}
+
+.par23{
+    width: 50px;
+}
+
+.binanceDiv{
+    
+    width: 381px;
+    height: 234px;
+    background-color:  #1A202C;
+}
+.binanceDiv1{
+    position: relative;
+    width: 90%;
+    border-bottom: 1px solid #686868;
+    height: 90px;
+    margin-left: 20px;
+}
+
+.logoBin{
+    position: absolute;
+    width: 85px;
+    height: 17px;
+    top: 7px;
+    left: 30px;
+}
+.iconBin{
+    position: absolute;
+    width: 20px;
+    top: 5px;
+}
+.binanceDiv1 p{
+    position: absolute;
+    right: 140px;
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #61E224;
+}
+
+.graph{
+    position: absolute;
+    right: 80px;
+    bottom: 10px;
+}
+.binanceDiv1 h1{
+    position: absolute;
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+    color: white;
+    bottom: 10px;
+   
+}
+
+.binance{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.binFut{
+    width: 90%;
+    height: 55px;
+    
+    border-radius: 7px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+}
+.binFut:hover{
+    background-color:#2B3548 ;
+    cursor: pointer;
+}
+.binSav{
+    width: 90%;
+    height: 55px;
+    
+    border-radius: 7px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+}
+.binSav:hover{
+    background-color:#2B3548 ;
+    cursor: pointer;
+}
+
+.lastLeftDiv{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 240px;
+    overflow-y: scroll;
+    padding-right: 20px;
+}
+
+.lastLeftDiv div{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    
+}
+.vector{
+    margin-left: 10px;
+}
+.coinbase{
+    margin-left: -50px;
+}
+.lastLeftDiv div .textDiv{
+    margin-left: -10px;
+}
+
+.pen{
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+    animation: penAnim 3s infinite ;
+    animation-delay: 1s;
+    animation-timing-function: ease-out;
+}
+
+@keyframes penAnim{
+    0%{rotate: 0deg;}
+    40%{rotate: 360deg;}
+    100%{rotate: 360deg;}
+}
+
+.lastLeftDiv::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+.lastLeftDiv::-webkit-scrollbar-thumb {
+    background: #805AD5;
+    border-radius: 3px;
+  }
+
+.notification{
+    position: relative;
+    width: 400px;
+    height: 151px;
+    background: #212734;
+    box-shadow: inset 0px -0.2px 1px #805AD5;
+    border-radius: 10px;
+    margin-top: 7px;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.notification img{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.notification img:hover{
+    cursor: pointer;
+    filter: invert(1);
+}
+.notification p{
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-left: -30px;
+}
+
+.notification button{
+    background: #A37DF9;
+    border-radius: 10px;
+    width:338.71px ;
+    height:40px;
+    margin-top: 10px;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+/* /////////////////////////////////////////// */
+/* main */
+.secondBigDiv{
+    width: 1450px;
+}
+.secDivchild1{
+    display:flex;
+    
+}
+
+.TotalPoints{
+    background: #212734;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    width: 697px;
+    height: 348px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.totalDiv1{
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+}
+.totalDiv2Money{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:170px;
+    top: 45px;
+    left: 40px;
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: white;
+}
+.totalDiv2Month{
+    position: absolute;
+    display: flex;
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    justify-content: space-between;
+    bottom: 65px;
+    left: 100px;
+    width: 560px;
+    color: white;
+}
+.totalSelect1{
+    width: 117px;
+    height: 30px;
+    background: linear-gradient(180deg, #212834 0%, #262F3D 0.01%, #212734 100%);
+    border: 0.842853px solid #A3A0A0;
+    border-radius: 3.97656px;
+    color: white;
+    cursor: pointer;
+    margin: 5px;
+}
+.totalSelect1:focus{
+    background-color: #212834 ;
+    cursor: pointer;
+}
+.totalSelect2{
+    width: 102px;
+    height: 30px;
+    background: linear-gradient(180deg, #212834 0%, #262F3D 0.01%, #212734 100%);
+    border: 0.842853px solid #A3A0A0;
+    border-radius: 3.97656px;
+    color: white;
+    cursor: pointer;
+    margin: 5px;
+}
+.totalSelect2:focus{
+    background-color: #212834 ;
+    cursor: pointer;
+}
+.totalDiv1 h1{
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 10px;
+}
+
+.totalDiv1 a{
+    position: absolute;
+    top: 5px;
+    right: 30px;
+    text-decoration: none;
+    color: #805AD5;
+    font-size: 14px;
+}
+
+.totalDiv2{
+    width: 100%;
+    background-image: url("./images/main/Group 31461 (1).png");
+    background-size: 80%;
+    background-repeat: no-repeat ;
+    background-position: bottom 90px left 100px;
+    height: 300px;
+    position: relative;
+}
+.spect{
+    width: 545px;
+    height: 120px;
+    position: absolute;
+    left: 110px;
+    top: 50px;
+}
+.graphMoney{
+    position: absolute;
+    width: 510px;
+    height:130px ;
+    left: 120px;
+    bottom: 97px;
+}
+.totalDiv2Icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    width: 100px;
+}
+.totalDiv2Icons img{
+    cursor: pointer;
+}
+.totalDiv2MnyIcon{
+    background-image: url("./images/main/Group 31462.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 110px;
+    height: 45px;
+    position: absolute;
+    right: 13px;
+    top: 78px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+.totalDiv2MnyIcon p{
+    margin-top: -10px;
+}
+.green{
+    position: absolute;
+    right: 58px;
+    top: 122px;
+}
+
+.totalDiv2Checkbox form{
+    background-image:url("./images/main/Rectangle 278.png") ;
+    box-shadow: 0px 2px 2px 1px;
+    display: flex;
+    width: 248.13px;
+   
+    justify-content: space-between;
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+    border-radius: 4.0865px;
+}
+
+
+
+.usd{
+    color: #128994;
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11.5116px;
+    line-height: 18px;
+    
+}
+.btc{
+    color:  #58C925;
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11.5116px;
+    line-height: 18px;
+}
+.eth{
+    color:  #ffffff;
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11.5116px;
+    line-height: 18px;
+}
+
+/*/////////////////// checkbox style//////// */
+.container {
+    position: relative;
+    padding-left: 20px;
+    margin: 7px;
+    cursor: pointer;
+    font-size: 11px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background-color: #212734;
+    border: 1px solid #805AD5;
+  }
+  
+  .container:hover input ~ .checkmark {
+    background-color: #212734;
+  }
+  
+  .container input:checked ~ .checkmark {
+    background-color: #212734;
+    
+  }
+  
+  
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .container input:checked ~ .checkmark:after {
+    display: block;
+    
+  }
+  
+  .container .checkmark:after {
+    left: 4px;
+    bottom: 2px;
+    width: 4px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+   color: #58C925;
+  }
+
+
+/* ///////////////////////////// */
+.mostCoinDiv{
+    display: flex;
+}
+.mostUsable{
+    background: #212834;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7.44986px;
+    width: 405px;
+    height: 348px;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.most1{
+    width: 100%;
+    position: relative;
+    
+}
+.most1 h1{
+    color: white;
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+.most1 a{
+    text-decoration: none;
+    position: absolute;
+    color: #805AD5;
+    right: 10px;
+    top: 5px;font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    margin-right: -10px;
+}
+/* //////////////////////////////////////// */
+
+.coins{
+    background: #212834;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6.71658px;
+    width: 267px;
+    height: 348px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.coin1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: white;
+}
+
+.coin1 h1{
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+.coin2 img{
+    width: 212px;
+}
+.coin1 a{
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #805AD5;
+    text-decoration: none;
+}
+.coin3{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.coin3 p{
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.6736px;
+    line-height: 148%;
+    color: white;
+    padding: 4px;
+    cursor: pointer;
+}
+.coin3p{
+    border: 1px solid white;
+}
+
+/* //////////////////////////////////////// */
+
+.secDivchild2{
+    display: flex;
+
+    
+}
+
+/* /////////////////////// */
+.dDivAnalytics{
+    display: flex;
+}
+
+.dDiv{
+    width: 430px;
+    height: 312px;
+    background: #212734;
+    box-shadow: 0px 3.44681px 3.44681px rgba(0, 0, 0, 0.25);
+    border-radius: 12.9256px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid #58C925;
+    padding: 12px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.dDiv1{
+    display: flex;
+    height: 80px;
+}
+.dDivImg img{
+    width: 77px;
+    height: 76px;
+} 
+
+.dDiv12Chld{
+    display: flex;
+    color: #805AD5;
+    align-items: center;
+    height: 50px;
+    
+}
+.dDiv12Chld h1{
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24.5409px;
+    line-height: 148%;
+    margin-left: 10px;
+}
+.dDiv12{
+    margin-left: 20px;
+    
+}
+.dDiv12 p{
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18.9575px;
+    line-height: 148%;
+    color: white;
+    
+}
+.dashes1{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 427px;
+    z-index: 0;
+}
+.dashes2{
+    position: absolute;
+    bottom: 0;
+    right: 77px;
+    width: 351px;
+    z-index: 0;
+}
+.dDiv2{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    z-index: 20;
+
+}
+.dDiv2 p{
+    margin: 8px;
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17.6622px;
+    line-height: 148%;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+} 
+.dDiv2clicked{
+    border: 1px solid #686868;
+    background-color: #1A202C;
+    border: 1.17748px solid #686868;
+    border-radius: 2.35496px;
+}
+
+
+/* /////////////// */
+.analytDiv{
+    width: 461px;
+    height: 314px;
+    background: #212834;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5.61px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.anDiv1{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+.anDiv1 h1{
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: white;
+}
+
+.anDiv1 a{
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #805AD5;
+    text-decoration: none;
+}
+
+.anDiv2 , .anDiv3 , .anDiv4 , .anDiv5{
+    display: flex;
+    background: linear-gradient(180deg, #2B3341 0%, rgba(61, 73, 95, 0.00693628) 99.99%, rgba(33, 39, 51, 0) 100%);
+    border: 0.681439px solid #805AD5;
+    filter: drop-shadow(0px 2.72575px 2.72575px rgba(0, 0, 0, 0.25));
+    border-radius: 9.53605px;
+    align-items: center;
+    justify-content: space-around;
+    height: 47px;
+    width: 85%;
+    position: relative;
+}
+.anDiv5:hover{
+    cursor: pointer;
+    background-color: darkslategray;
+}
+.anDiv2:hover{
+    cursor: pointer;
+    background-color: darkslategray;
+}
+
+.anDiv3:hover{
+    cursor: pointer;
+    background-color: darkslategray;
+}
+
+.anDiv4:hover{
+    cursor: pointer;
+    background-color: darkslategray;
+}
+
+.anDiv2 p , .anDiv3 p , .anDiv4 p , .anDiv5 p{
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.6288px;
+    line-height: 22px;
+    color: #996FF8;
+}
+
+
+
+.anDiv2 span , .anDiv4 span , .anDiv5 span{
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.6288px;
+    line-height: 22px;
+    color: #FFFFFF;
+   
+}
+
+.anDiv2 img {
+    position: absolute;
+    left: 35px;
+}
+.anDiv3img{
+    position: absolute;
+    left: 35px;
+}
+.anDiv4 img {
+    position: absolute;
+    left: 35px;
+}
+.anDiv5 img {
+    position: absolute;
+    left: 35px;
+}
+
+.anDiv2 p{
+    position: absolute;
+    left: 100px;
+}
+.anDiv3 p{
+    position: absolute;
+    left: 100px;
+    font-size: 10px;
+}
+.anDiv4 p{
+    position: absolute;
+    left: 100px;
+}
+.anDiv5 p{
+    position: absolute;
+    left: 100px;
+}
+
+.anDiv2 span{
+    position: absolute;
+    right: 15px;
+}
+.anDiv4 span{
+    position: absolute;
+    right: 15px;
+}
+.anDiv5 span{
+    position: absolute;
+    right: 15px;
+}
+.anDivBin{
+    position: absolute;
+    right: 15px;
+}
+
+
+
+
+
+
+/* ///////////////////////// */
+.futuresDiv{
+    width: 468px;
+    height: 313px;
+    background: #212834;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5.61px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.futur1{
+    display: flex;
+    width:95% ;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.futur1 p{
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.8703px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+.futur1 a{
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #805AD5;
+    text-decoration: none;
+}
+.futur2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 419px;
+    height: 79px;
+    background: linear-gradient(180deg, #2B3341 0%, rgba(61, 73, 95, 0.00693628) 99.99%, rgba(33, 39, 51, 0) 100%);
+    border: 0.482541px solid #686868;
+    border-radius: 5px;
+    width: 412px;
+}
+.futur21{
+    display: flex;
+    flex-direction: column;
+    
+}
+.futurTime p{
+    
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11.2645px;
+    line-height: 148%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+
+}
+.futurMnyDiv{
+    display: flex;
+    width: 130px;
+    justify-content: space-between;
+}
+.ftMn1{
+    display: flex;
+
+}
+.ftMn1 p {
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.9133px;
+    line-height: 20px;
+    color: #61E224;
+}
+.ftMn2{
+    display: flex;
+}
+.ftMn2 p {
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.9133px;
+    line-height: 20px;
+    color: #FF0000;
+}
+
+.futur22{
+    width: 160px;
+    height: 49px;
+    background: linear-gradient(180deg, #2B3341 0%, rgba(61, 73, 95, 0.00693628) 99.99%, rgba(33, 39, 51, 0) 100%);
+    border: 0.239945px solid #686868;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 2.48626px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.futur22 p{
+    
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.futur3{
+    width: 412px;
+    height: 120px;
+    background-image: url("./images/main/Vector 403.png");
+    background-size: 100%;
+    background-position: bottom 0 left 0;
+    background-color: #1F2633;
+    border: 0.482541px solid #61E224;
+    border-radius: 2.41271px;
+    position: relative;
+}
+.futur3 div {
+    display: flex;
+    width: 200px;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+}
+
+.futur3 p{
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9.43129px;
+    line-height: 148%;
+    color: #FFFFFF;
+    padding: 5px;
+}
+.futur3p7{
+    background: #1A202C;
+    border: 0.628752px solid #A3A0A0;
+    border-radius: 1.2575px;
+}
+
+.futur4{
+    display: flex;
+    width: 412px;
+    align-items: center;
+}
+.futur41{
+    width: 105px;
+}
+.asset{
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.6962px;
+    line-height: 148%;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+    width: 70px;
+}
+.assetDown{
+    padding-top: 6px;
+}
+.assetDown p{
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.6962px;
+    line-height: 148%;
+    display: flex;
+    color: #FFFFFF;
+}
+
+.futur42{
+    width: 130px;
+}
+.margBal{
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.6962px;
+    line-height: 148%;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+    width: 82px;
+}
+.margBal p{
+    width: 100px;
+}
+.margBalDown{
+    padding-top: 6px;
+}
+.margBalDown p{
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.6962px;
+    line-height: 148%;
+    display: flex;
+    align-items: center;
+    color: #805AD5;
+    
+
+}
+.futur43{
+    width: 130px;
+}
+.walBal{
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.6962px;
+    line-height: 148%;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+    width: 80px;
+}
+.walBal p{
+    width: 100px;
+}
+.walBalDown{
+    padding-top: 6px;
+}
+.walBalDown p{
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.6962px;
+    line-height: 148%;
+    display: flex;
+    align-items: center;
+    color: #805AD5;
+    
+
+}
+
+/* ///////////////////////////////// */
+
+.secDivchild3{
+    width: 1391px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background: #212834;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    height: 270px;
+}
+.chld31{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 53px;
+}
+.chld31 h1{
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.chld31 a{
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #805AD5;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.chld32{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    height: 53px; 
+    background-color: #272E3C;
+}
+
+
+.chld32 p{
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+.chld32 p:nth-child(1){
+    width: 190px;
+}
+.chld33{
+    background: #212834;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.chld33chld{
+    display: flex;
+    align-items: center;
+    width: 99%;
+    color: white;
+    position: relative;
+    height: 53px;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.159);
+    padding-bottom: 5px;
+}
+.chld33chld div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.chld33chld div:nth-child(1){
+    width: 120px;
+    margin-left: 30px;
+}
+.amoutNum{
+    position: absolute;
+    left: 310px;
+}
+.chld33chld p:nth-child(3){
+    position: absolute;
+    left: 453px;
+   
+}
+.onehchange{
+    position: absolute;
+    left: 575px;
+    width: 60px;
+    justify-content: space-between;
+}
+.onehchange p{
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    color: #34D35C;
+
+}
+.chld33chld p:nth-child(5){
+    position: absolute;
+    right: 570px;
+}
+.chld33chld p:nth-child(6){
+    position: absolute;
+    right: 365px;
+}
+.img1Chld3{
+    position: absolute;
+    right: 130px;
+    width: 140px;
+}
+.img2Chld3{
+    position: absolute;
+    right: 43px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+/* medias */
+@media only screen and (max-width:1860px) {
+    .secDivchild1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 750px;
+    }
+    .secondBigDiv{
+        width: 750px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-right: -30px;
+    }
+    .mostCoinDiv{
+        margin-left: 5px;
+    }
+    .secDivchild2{
+      margin-left: -420px;
+    }
+    .dDiv{
+        width: 323px;
+        height: 250px;
+        margin-top: 70px;
+    }
+    .notification{
+        height: 100px;
+        z-index: 1;
+        margin-left: -2px;
+    }
+    .dashes1{
+        width: 320px;
+    }
+    .notification button{
+        height: 30px;
+    }
+    .dashes2{
+        width: 264px;
+        left:0px;
+    }
+    .dDiv2 p{
+        margin: 0;
+    }
+
+    .analytDiv{
+        width: 354px;
+        margin-left: 0;
+        height: 250px;
+        margin-top: 70px;
+    }
+    .anDiv2 p{
+        left: 80px;
+    }
+    .anDiv3 p{
+        left: 80px;
+        width: 90px;
+    }
+    .anDiv4 p{
+        left: 80px;
+    }
+    .anDiv5  p{
+        left: 80px;
+    }
+    .futuresDiv{
+        margin-left: 0;
+        width: 420px;
+
+    }
+    .futur2 , .futur3 , .futur4{
+        width: 380px;
+    }
+    .coin1{
+        margin-top: 20px;
+    }
+    .coins{
+        width: 275px;
+
+    }
+    .secDivchild3{
+        width: 1120px;
+        margin-left: -410px;
+    }
+    .chld33chld div:nth-child(1){
+        margin-left: 16px;
+    }
+    .amoutNum{
+        left: 270px;
+    }
+    .chld33chld p:nth-child(3){
+        left: 370px;
+    }
+    .onehchange{
+        left: 470px;
+    }
+    .chld33chld p:nth-child(5){
+        right: 440px
+    }
+    .chld33chld p:nth-child(6){
+        right: 270px
+    }
+    .img1Chld3{
+        width: 100px;
+        right: 100px;
+    }
+    .img2Chld3{
+        right: 30px;
+    }
+}
+@media only screen and (max-width:1196px) {
+    
+    header{
+        flex-direction: column;
+        height:250px ;
+    }
+    .TotalPoints{
+        width:500px ;
+        
+    }
+    .totalDiv2Money{
+        left: 0px;
+        height: 130px;
+        margin-top: 20px;
+        font-size: 12px
+    }
+    .spect{
+        width: 350px;
+        left: 80px;
+        height: 95px;
+        top: 60px;
+    }
+    .totalDiv2{
+        background-position: bottom 120px left 70px   ;
+    }
+    .graphMoney{
+        
+        width: 320px ;
+        left: 80px;
+        bottom: 120px;
+    }
+    .totalDiv2Month{
+        font-size: 10px;
+        width: 400px;
+        left: 60px;
+        bottom: 90px;
+    }
+    .green{
+        top: 95px;
+        right: 100px;
+    }
+    .totalDiv2MnyIcon{
+        top: 50px;
+        right: 54px;
+    }
+    .mostUsable{
+        height: 343px;
+        width: 290px;
+    }
+    .most1{
+        flex-direction: column;
+    }
+    .most1 a{
+        position: static;
+    }
+    .mostUsable img{
+        width: 210px;
+    }
+    .secDivchild1{
+        width: 500px;
+    }
+    .secondBigDiv{
+        width: 500px;
+    }
+    .secondBigDiv{
+        margin-right:20px
+    }
+    .notification{
+        margin-left: 0px;
+    }
+    .secDivchild2{
+        margin-top: 10px;
+        position: static;
+        flex-direction: column;
+        align-items: center;
+        margin-left: -400px;
+    }
+    .coins{
+        height: 342px;
+    }
+    .coins img{
+        width: 150px;
+    }
+    .coin2{
+        margin-top: 30px;
+    }
+    .coin3{
+        margin-top: 30px;
+    }
+    .dDiv{
+        width: 430px;
+        height: 312px;
+        margin-left: 20px;
+        margin-top: 0px;
+    }
+    .dashes1 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 427px;
+        z-index: 0;
+    }
+    .dashes2 {
+        position: absolute;
+        bottom: 0;
+        right: 77px;
+        width: 351px;
+        z-index: 0;
+    }
+    .analytDiv{
+        width: 461px;
+        height: 314px;
+        margin-left: 14px;
+        margin-top: 0px;
+    }
+    .futuresDiv{
+        width: 101.5%;
+        margin-left: 16px;
+    }
+
+    .secDivchild3{
+        width: 918px;
+        margin-left: -408px;
+    }
+    .chld33chld div:nth-child(1){
+        margin-left: 8px;
+    }
+    .amoutNum{
+        left: 225px;
+    }
+    .chld32 p{
+        font-size: 15px;
+    }
+    .chld33chld p:nth-child(3){
+        left: 307px;
+    }
+    .onehchange{
+        left: 390px;
+    }
+    .chld33chld p:nth-child(5){
+        right: 360px
+    }
+    .chld33chld p:nth-child(6){
+        right: 210px
+    }
+    .img1Chld3{
+        width: 100px;
+        right: 70px;
+    }
+    .img2Chld3{
+        right: 15px;
+    }
+}
+
+
+
+
+@media only screen and (max-width:928px){
+    section{
+        flex-direction: column;
+    }
+   .leftDiv{
+    
+    width: 100%;
+   }
+   .secondBigDiv{
+    width: 100%;
+    align-items: center;
+   }
+   .secDivchild1{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        
+   }
+   .mostCoinDiv{
+    align-items: center;
+    justify-content: center;
+   }
+   .notification{
+    width: 98%;
+   }
+   .secDivchild2{
+    margin-left: 0px;
+   }
+   .dDiv{
+    width: 323px;
+    height: 250px;
+    margin-top: 0px;
+    }
+ 
+    .dashes1{
+        width: 320px;
+    }
+
+    .dashes2{
+        width: 264px;
+        left:0px;
+    }
+    .analytDiv{
+        width: 354px;
+        margin-left: 0;
+        height: 250px;
+    }
+    .secDivchild3{
+        width: 730px;
+        margin-left: 0px;
+       
+    }
+    .chld33chld div:nth-child(1){
+        margin-left: 0px;
+    }
+    .amoutNum{
+        left: 220px;
+    }
+    .chld33chld p:nth-child(3){
+        left: 293px;
+    }
+    .onehchange{
+        left: 370px;
+    }
+    .chld33chld p:nth-child(5){
+        right: 200px
+    }
+    .chld33chld p:nth-child(6){
+        right: 60px
+    }
+    .img1Chld3{
+       display: none;
+    }
+    .img2Chld3{
+        right: 13px;
+    }
+    .chld32 p:nth-child(7){
+        display: none;
+    }
+}
+
+@media screen and (max-width:730px){
+    .dDivAnalytics{
+        flex-direction: column;
+       
+    }
+    .dDiv{
+        width: 450px;
+        height: 250px;
+        }
+     
+        .dashes1{
+            width: 450px;
+        }
+    
+        .dashes2{
+            width: 370px;
+            left:0px;
+        }
+        .analytDiv{
+            width: 450px;
+            margin-left: 16px;
+            height: 250px;
+        }
+        .mostCoinDiv{
+            flex-direction: column;
+        }
+        .mostUsable{
+            width: 400px;
+        }
+        .coins{
+            width: 400px;
+        }
+    .secDivchild3{
+        width: 490px;
+        
+    }
+    .chld33chld div:nth-child(1){
+        margin-left: 7px;
+    }
+    .amoutNum{
+        left: 220px;
+    }
+    .chld33chld p:nth-child(3){
+        left: 290px;
+        font-size: 13px;
+    }
+    .onehchange{
+        left: 360px;
+    }
+
+    .img2Chld3{
+        right: 12px;
+    }
+    .chld32 p:nth-child(4){
+        display: none;
+    }
+    .chld32 p:nth-child(5){
+        display: none;
+    }
+    .chld33chld p:nth-child(5){
+        display: none;
+    }
+    .chld33chld p:nth-child(6){
+        display: none;
+    }
+   
+}
+
+@media only screen and (max-width:500px) {
+    section{
+        padding: 0px;
+        margin: 0px;
+        flex-direction: column;
+    }
+    .sect1BigDiv{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+        
+    }
+    .leftDivChild2{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .notification{
+        height: 150px;
+        width: 300px;
+    }
+    .notification p{
+        width: 200px;
+        font-size: 15px;
+    }
+    .notification button{
+        width: 290px;
+    }
+    .leftDiv{
+        width: 100%;
+        height: 500px;
+        
+    }
+    .inpDiv{
+        flex-direction: column;
+        align-items: center;
+        height: 100px;
+        width: 100%;
+    }
+    .exchange{
+        width: 290px;
+        margin: 0;
+       
+    }
+    .leftParent2{
+        width: 290px;
+    }
+    .binanceDiv{
+        width: 300px;
+    }
+    .binanceDiv p{
+        right: 60px;
+    }
+    .graph{
+        right: 10px;
+    } 
+    .lastLeftDiv{
+        height: 90px;
+        margin-top: 5px;
+        width: 300px;
+    }
+    .coinbase{
+        width: 50px;
+        margin-left: -10px;
+    }
+    .vector{
+        width: 20px;
+    }
+    .lastLeftDiv div .textDiv{
+        width: 70px;
+        margin-left: -20px;
+    }
+    .pen{
+        right: 10px;
+    }
+
+
+
+    .TotalPoints{
+        width:320px ;
+        padding: 0;
+    }
+    .totalDiv2Money{
+        left: 14px;
+        height: 50px;
+        top: 75px;
+        font-size: 8px ;
+        justify-content: space-evenly;
+    }
+    .spect{
+        width: 230px;
+        left: 60px;
+        height: 60px;
+        top: 70px;
+    }
+    .totalDiv2{
+        background-position: bottom 155px left 50px   ;
+    }
+    .TotalPoints{
+        padding: 0;
+        margin-top: 10px;
+    }
+    .graphMoney{
+        height: 80px;
+        width: 215px ;
+        left: 70px;
+        bottom: 155px;
+    }
+    .totalDiv2Month{
+        font-size: 9px;
+        width: 250px;
+        left: 50px;
+        bottom: 110px;
+    }
+    .green{
+        top: 95px;
+        right: 35px;
+        width: 10px;
+    }
+    .totalDiv2MnyIcon{
+        width: 40px;
+        top: 70px;
+        right: 20px;
+        font-size: 9px;
+    }
+    .totalDiv2MnyIcon p{
+        margin-top: -30px;
+    }
+    .totalSelect1{
+        width: 50px;
+    }
+    .totalSelect2{
+        width: 50px;
+    }
+    .totalDiv2Checkbox form {
+        left: 25px;
+        bottom: 50px;
+    }
+
+    .totalDiv2Icons img{
+        width: 12px;
+    }
+    .mostUsable{
+        width: 300px;
+    }
+    .mostCoinDiv{
+        width: 310px;
+        margin: 0px;
+    }
+    .secDivchild1 div{
+       margin-left: 0;
+       margin-right: 0;
+    }
+    .dDivAnalytics{
+        align-items: center;
+        width: 320px;
+    }
+    .dDiv{
+        width: 315px;
+        height: 250px;
+        margin: 0;
+        }
+     
+        .dashes1{
+            width: 315px;
+        }
+    
+        .dashes2{
+            width: 259.5px;
+            left:0px;
+        }
+        .analytDiv{
+            width: 320px;
+           
+            height: 250px;
+            margin-left: 0;
+            margin-right: 0;
+        }
+        .mostCoinDiv{
+            flex-direction: column;
+        }
+        .mostUsable{
+            width: 320px;
+        }
+        .coins{
+            width: 320px;
+        }
+   
+        .futuresDiv{
+            width: 310px;
+            margin-right: 0;
+            margin-left: 0;
+        }
+        .futur2{
+            width: 300px;
+        }
+        .futur3{
+            width: 300px;
+        }
+        .futur4{
+            width: 300px;
+        }
+        .secDivchild3{
+            width: 310px;
+            
+        }
+        .chld33chld div:nth-child(1){
+            margin-left: 3px;
+            font-size: 12px;
+            width: 90px;
+        }
+        .amoutNum{
+            left: 120px;
+        }
+        .chld33chld p:nth-child(3){
+            left: 165px;
+            font-size: 13px;
+        }
+        .onehchange{
+            left: 220px;
+           width: 44px;
+           align-items: center;
+        }
+        .onehchange p{
+            font-size: 12px;
+        }
+        .img2Chld3{
+            right: 12px;
+        }
+        .chld32 p:nth-child(1){
+            font-size: 15px;
+            margin-left: 3px;
+            width: 100px;
+        }
+   
+        .chld32 p{
+            font-size: 12px;
+        }
+}
+
+@media only screen and (max-width:425px){
+    header{
+        flex-direction: row;
+        height: 60px;
+    }
+    .burger{
+        display: block;
+        width: 40px;
+        filter: invert(0.6) drop-shadow(0px 0px 10px #805AD5)  ;
+    }
+    nav{
+        display: none;
+    }
+    .iconsDiv{
+        display: none;
+    }
+}
