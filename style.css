@@ -2049,7 +2049,7 @@ section{
         }
         .analytDiv{
             width: 320px;
-           
+           margin-top: 10px;
             height: 250px;
             margin-left: 0;
             margin-right: 0;
@@ -2113,6 +2113,16 @@ section{
    
         .chld32 p{
             font-size: 12px;
+        }
+        .dDiv12Chld h1{
+            font-size: 20px;
+        }
+        .exchange{
+            background-position: bottom 10px left 10px;
+        }
+        .lastLeftDiv{
+           
+            margin-top: 0px;
         }
 }
 
